@@ -28,4 +28,38 @@ const obj3 = {5:"e",6:"f"}
 
 // 2nd method to merge the objects
 obj4 ={...obj1,...obj2,...obj3} //spread method - easiest and the most advanced method to merge the objects
-console.log(obj4); 
+//console.log(obj4);
+//when data is directly coming from DataBase-
+
+const users= [
+    {
+        id: 1,
+        email: "harshit@google.com",
+    },
+]
+users[0].email
+/*console.log(tinderUser);
+
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));*/
+
+
+// De-Structure of an object-
+const course = {
+    coursename : "JavaScript",
+    price:"999",
+    courseinstructor:"hitesh",
+}
+
+const {courseinstructor:instructor} = course //syntax of object destructure- helps in easy fetch of the data available in an object , we can even rename the key name by using a colon as i have used above for courseinstructor 
+console.log(instructor);
+
+// json api basic syntax -
+
+// {
+//     "name" :"prakhar",
+//     "coursename" : "js",
+//     "price":"999",
+// }
