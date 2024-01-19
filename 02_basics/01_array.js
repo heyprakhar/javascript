@@ -1,0 +1,1 @@
+const MyArray = [0,1,2,3,4,5] //in javascript an array can consists different types of datatypes and the size of an array can be resized too unlike other programming languages like c,c++ and java.
