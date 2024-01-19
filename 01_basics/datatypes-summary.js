@@ -13,3 +13,9 @@
 
 //REFERENCE TYPE (non primitive)-
 // array,objects,functions  
+
+// ++++++++++++++++++++++++++++++++++++++++
+
+//stack(used in primitive datatype) and heap(used in non-primitive datatype) memory - 
+
+

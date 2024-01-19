@@ -32,6 +32,10 @@ console.log("R");
 console.log("result:",result);
 
 function logInUserMessage(username){
+  if(username === undefined){
+    console.log("Please Enter a Username");
+    return
+  }
    return `${username} just logged in`
 }
 
