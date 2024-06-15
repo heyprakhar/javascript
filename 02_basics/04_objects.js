@@ -1,9 +1,9 @@
 //const tinderUser = new Object() //singleton object
-const tinderUser = {}
+const tinderUser = {
 tinderUser.id = "123abc"
 tinderUser.name = "sam"
 tinderUser.isLoggedIn = false
-
+}
 // console.log(tinderUser);
 
 const regularUser = {
